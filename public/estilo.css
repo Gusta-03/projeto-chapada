@@ -1,0 +1,123 @@
+/* Box-model e Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Position e Display no Cabeçalho */
+.cabecalho-principal {
+    background-color: #2c5e3b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky; /* Atende ao requisito de position */
+    top: 0;
+    z-index: 100;
+}
+
+/* Combinador de seletores (Hierarquia) */
+.cabecalho-principal h1 {
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+/* Display flex no menu */
+.menu-navegacao ul {
+    display: flex; /* Atende ao requisito de display */
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-navegacao ul li {
+    margin: 0 15px; /* Atende ao requisito de margin */
+}
+
+.menu-navegacao ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Box-model no conteúdo principal */
+.conteudo-principal {
+    padding: 40px 20px; /* Atende ao requisito de padding */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.secao-destinos {
+    margin-bottom: 40px;
+}
+
+.secao-destinos h2 {
+    margin-bottom: 20px;
+    color: #2c5e3b;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.artigo-destino {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.artigo-destino img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Formulário */
+.secao-formulario {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.formulario-inscricao {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Outro exemplo de combinador de seletores */
+.formulario-inscricao label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.formulario-inscricao input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formulario-inscricao button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #2c5e3b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.rodape-principal {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
