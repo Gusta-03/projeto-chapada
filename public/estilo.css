@@ -106,3 +106,72 @@ footer {
     border-top: 1px solid #333;
     font-size: 0.9rem;
 }
+
+/* =========================================
+   ETAPA 3: RESPONSIVIDADE (FLEXBOX E GRID)
+   ========================================= */
+
+/* Ajustes Iniciais para Flexbox no Cabeçalho (Padrão/Mobile) */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+}
+
+/* Ajustes Iniciais para Grid nos Cards (Padrão/Mobile - 1 Coluna) */
+.secao-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
+/* --- MEDIA QUERY: TABLETS E DESKTOPS (A partir de 768px) --- */
+@media (min-width: 768px) {
+    /* Cabeçalho: Lado a Lado com Flexbox */
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 60px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /* Banner e Texto Intro: Lado a Lado (Opcional, mas melhora o design) */
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 60px;
+        text-align: left;
+    }
+
+    .banner {
+        flex: 1;
+    }
+
+    .introducao {
+        flex: 1;
+        margin-top: 0;
+    }
+
+    /* Cards: 3 Colunas com Grid */
+    .secao-cards {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 40px 60px;
+        gap: 30px;
+    }
+}
