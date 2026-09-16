@@ -2,7 +2,6 @@
 
 ## 1. Dados básicos
 * **Nome:** Gustavo Sousa Marinho
-* **Matrícula:** 924365
 * **Proposta:** Proposta 2 - Lugares e Experiências
 
 ## 2. Imagem do esboço (wireframe)
