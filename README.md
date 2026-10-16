@@ -11,3 +11,5 @@ Projeto web desenvolvido durante a formação acadêmica em Ciência da Computa�
 - HTML
 - CSS
 
+## 4. Como Executar
+Para visualizar o projeto, faça o download dos arquivos e abra o arquivo `index.html` diretamente em qualquer navegador de internet.
