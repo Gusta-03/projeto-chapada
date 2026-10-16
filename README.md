@@ -14,5 +14,3 @@ Projeto web desenvolvido durante a formação acadêmica em Ciência da Computa�
 ## 4. Como Executar
 Para visualizar o projeto, faça o download dos arquivos e abra o arquivo `index.html` diretamente em qualquer navegador de internet.
 
-## 5. Imagem do Esboço (Wireframe)
-(deixa aqui o código/imagem do teu wireframe que estava no teu ficheiro original)
